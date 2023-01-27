@@ -1,0 +1,53 @@
+h1 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: rgba(185, 63, 8);
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: rgba(185, 63, 8);
+}
+
+figure {
+    text-align: center;
+    font-style: italic;
+    font-size: .75em;
+    color: rgba(185, 63, 8);
+}
+
+img {
+    width: 400px;
+    height: 350px;
+}
+
+#image-gallery {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 10%;
+}
+
+.image-container {
+    border: rgba(185, 63, 8) solid;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+body, head {
+    background-color: rgba(247, 112, 24, 20%);
+}
+
+#lower-div {
+    width: 100%;
+    margin-top: 60%;
+    font-family: Oswald, Verdana, Arial, sans-serif;
+    float: right;
+    margin-bottom: 20px;
+}
+
+#top-container {
+    float: right;
+}
